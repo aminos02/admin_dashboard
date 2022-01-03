@@ -1,3 +1,4 @@
+import './topbar.css'
 function Topbar({ toggle }){
     return(
         <div className="topbar">

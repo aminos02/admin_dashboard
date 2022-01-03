@@ -10,6 +10,7 @@ function Main({ toggle, isToggle }) {
     <div className={`main ${isToggle ? "active" : ""}`}>
       <Topbar toggle={toggle}/>
       <CardBox/>
+      <BarChart/>
       <Details/>
     </div>
   );

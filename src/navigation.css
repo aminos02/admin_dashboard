@@ -112,6 +112,9 @@
        
          left:0;
       }
+      .title{
+          color:transparent
+      }
 }
 @media (max-width:480px){
     .navigation{
