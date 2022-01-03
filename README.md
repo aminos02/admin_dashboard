@@ -1,3 +1,14 @@
+# Website Url : https://responsiveadmindashboard.netlify.app/
+
+## Desktop View:
+<img src="https://raw.githubusercontent.com/aminos02/admin_dashboard/main/Capture1.PNG">
+<img src="https://raw.githubusercontent.com/aminos02/admin_dashboard/main/Capture2.PNG">
+
+## Tablet View
+<img src="https://raw.githubusercontent.com/aminos02/admin_dashboard/main/screenshot2.png">
+
+## Phone View 
+<img src="https://raw.githubusercontent.com/aminos02/admin_dashboard/main/screenshot1.png">
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
