@@ -8,7 +8,6 @@ function Navigation({isToggle}) {
     list[index]=1;
     setHovered(list)
   }
-console.log(isToggle);
   return (
     <div className={`navigation ${isToggle?"active":""}`}>
       <ul>

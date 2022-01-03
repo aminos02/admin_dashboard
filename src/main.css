@@ -111,6 +111,31 @@
 .cardBox .card:hover .iconBx {
   color: var(--white);
 }
+
+/* Charts */ 
+
+.graphBox{
+  position: relative;
+  width: 100%;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 2fr ;
+  grid-gap: 30px;
+  min-height: 200px;
+}
+
+.graphBox .box{
+  position: relative;
+  background: #fff;
+  padding: 20px;
+  width: 100%;
+  box-shadow: 0 7px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+
+/* Details */
+
 .details {
   position: relative;
   width: 100%;
@@ -244,21 +269,22 @@ color: var(--black2);
 .recentCustomers table tr:hover td h4 span{
 color: var(--white);
 }
+
+
 @media (max-width:991px)
 {
-   .navigation{
-      left: -300px;
-   }
+  .graphBox{
+    grid-template-columns: 1fr;
+  }
+
+   
    .main{
       width: 100%;
       left: 0;
    }
-   .navigation.active{
-      left:0;
-      width: 300px;
-   }
+   
    .main.active{
-      left: 300px;
+      left: 80px;
    }
    .cardBox{
       grid-template-columns: 1fr 1fr;

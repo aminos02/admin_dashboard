@@ -103,3 +103,24 @@
     width: 80px;
 }
 
+@media (max-width:991px)
+{
+    .navigation{
+        left: -300px;
+     }
+     .navigation.active{
+       
+         left:0;
+      }
+}
+@media (max-width:480px){
+    .navigation{
+        width: 100%;
+        left: -100%;
+        z-index: 1000;
+      }
+      .navigation.active{
+        width: 100%;
+        left: 0;
+      }
+}
